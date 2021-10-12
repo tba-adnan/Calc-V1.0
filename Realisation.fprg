@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="solicode"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-12 01:29:28 "/>
+        <attribute name="created" value="c29saWNvZGU7REVTS1RPUC1IVDVSMVFOOzIwMjEtMTAtMTI7MDE6Mjg6NTYgQU07MzE5Mg=="/>
+        <attribute name="edited" value="c29saWNvZGU7REVTS1RPUC1IVDVSMVFOOzIwMjEtMTAtMTI7MDM6MzM6MjcgQU07MjszMjk3"/>
+        <attribute name="edited" value="c29saWNvZGU7REVTS1RPUC1DVTM1REdTOzIwMjEtMTAtMTI7IjAxOjI5OjI4ICI7MjszMjA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Real" array="False" size=""/>
+            <declare name="num2" type="Real" array="False" size=""/>
+            <declare name="choix" type="String" array="False" size=""/>
+            <declare name="add" type="Real" array="False" size=""/>
+            <declare name="sub" type="Real" array="False" size=""/>
+            <declare name="mul" type="Real" array="False" size=""/>
+            <declare name="div" type="Real" array="False" size=""/>
+            <output expression="&quot;donner un nombre :&quot;" newline="True"/>
+            <input variable="NUM1"/>
+            <output expression="&quot;donner le deuxieme nombre :&quot;" newline="True"/>
+            <input variable="NUM2"/>
+            <assign variable="add" expression="num1 + num2"/>
+            <assign variable="sub" expression="num1 - num2"/>
+            <assign variable="mul" expression="num1 * num2"/>
+            <assign variable="div" expression="num1 / num2"/>
+            <output expression="&quot;choisir une operation: (+ - x /)&quot;" newline="True"/>
+            <input variable="choix"/>
+            <if expression="choix=&quot;+&quot;">
+                <then>
+                    <output expression="&quot;votre addition egale: &quot;&amp;add" newline="True"/>
+                </then>
+                <else>
+                    <if expression="choix=&quot;-&quot;">
+                        <then>
+                            <output expression="&quot;votre soustraction egale: &quot;&amp;sub" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="choix=&quot;*&quot;">
+                                <then>
+                                    <output expression="&quot;votre multiplication egale: &quot;&amp;mul" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;la division egale: &quot;&amp;div" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
