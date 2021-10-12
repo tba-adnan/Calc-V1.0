@@ -6,4 +6,4 @@ Prototype **(simple algorithme du comparaison entre deux entiers)** **:**
 # Calc-V1.0 : 
 Realisation **(une calculatrice totalement fonctionnelle)** **:**
 
-![image](https://raw.githubusercontent.com/tebbaa-adnane/Calc-V1.0/main/calcV1.0.PNG)
+![image](https://raw.githubusercontent.com/tebbaa-adnane/Calc-V1.0/main/realisation.PNG)
