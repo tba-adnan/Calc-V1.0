@@ -1,1 +1,3 @@
-# Calc-V1.0
+# Calc-V1.0 : 
+
+Réalisation d'une calculatrice
